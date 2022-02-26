@@ -21,27 +21,27 @@ export const NETWORKS = {
         testnetID: 4,
         blockExplorerURL: "https://rinkeby.etherscan.io"
     },
-    137: {
-        name: "Polygon",
-        rpcURL: "https://polygon-rpc.com/",
+    1088: {
+        name: "Metis Network",
+        rpcURL: "https://andromeda.metis.io/?owner=1088",
         currency: {
-            name: "Matic",
-            symbol: "MATIC",
+            name: "Metis",
+            symbol: "Metis",
             decimals: 18
         },
-        testnetID: 80001,
-        blockExplorerURL: "https://polygonscan.com"
+        testnetID: 588,
+        blockExplorerURL: "https://andromeda-explorer.metis.io/"
     },
-    80001: {
-        name: "Mumbai (Polygon Testnet)",
-        rpcURL: "https://rpc-mumbai.maticvigil.com/",
+    588: {
+        name: "Metis Stardust",
+        rpcURL: "https://stardust.metis.io/?owner=588",
         currency: {
-            name: "Matic",
-            symbol: "MATIC",
+            name: "Metis",
+            symbol: "tMetis",
             decimals: 18
         },
-        testnetID: 80001,
-        blockExplorerURL: "https://mumbai.polygonscan.com"
+        testnetID: 588,
+        blockExplorerURL: "https://stardust-explorer.metis.io/"
     },
     56: {
         name: "Binance",
